@@ -261,6 +261,35 @@ $ python -m venv [新しい環境名]
 $ source [環境名]/bin/activate
 ```
 
+## `anyenv` のアップデート
+
+- [anyenv-update - GitHub](https://github.com/znz/anyenv-update)
+- [anyenvの*envたちを一括でアップデートする](https://qiita.com/sawadashota/items/825002d84088c0129c4b)
+
+一応，`anyenv` の [GitHub](https://github.com/anyenv/anyenv) にもリンクがあるので，メンテナンスはされているのではなかろうか．
+以下，GitHub と同様．
+
+```bash
+$ mkdir -p $(anyenv root)/plugins
+$ git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anyenv-update
+Cloning into '/home/take/.anyenv/plugins/anyenv-update'...
+remote: Enumerating objects: 87, done.
+remote: Total 87 (delta 0), reused 0 (delta 0), pack-reused 87
+Receiving objects: 100% (87/87), 13.33 KiB | 1.67 MiB/s, done.
+Resolving deltas: 100% (33/33), done.
+$ anyenv update
+Updating 'anyenv'...
+Updating 'anyenv/anyenv-update'...
+Updating 'pyenv'...
+ |  From https://github.com/pyenv/pyenv
+ |  9a4f9c25..20189ff0  master     -> origin/master
+Skipping 'pyenv/python-build'; not git repo
+Updating 'anyenv manifest directory'...
+$ 
+```
+
+普通にアプデ出来ているので適宜活用していきたい．
+
 ## 不具合集
 
 #### 不具合(1)
