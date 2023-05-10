@@ -334,7 +334,7 @@ $ git clone https://github.com/znz/anyenv-update.git $(anyenv root)/plugins/anye
 
 ## 不具合集
 
-#### 不具合(1)
+### 不具合(1)
 
 ```bash
 $ pyenv install 3.9.0
@@ -409,7 +409,7 @@ $
 エラーの原因がよくわからなかったが，wiki をよく読んでいないためだった．
 インストールに必要な基本パッケージを入れて解決．
 
-#### 不具合(2)
+### 不具合(2)
 
 環境変数への理解不足 `.bash_profile`, `.bashrc` の違いをちゃんと理解すべし．
 
