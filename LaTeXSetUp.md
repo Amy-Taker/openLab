@@ -1,4 +1,4 @@
-# $\Latex$ SetUp
+# $\LaTeX$ SetUp
 
 実際に動作する [環境](./00_LaTeXtestEnv) を添えておく
 
@@ -34,7 +34,7 @@ $ sudo apt -y install latexmk
 ## `Pygments` のインストール
 
 このプログラムは，PDF にコードを貼り付けたりしたときに，行番号やシンタックスハイライトを行う．
-`Pygments` はその名の通り，`Python` で動作するため，$\Latex$ コンパイルの際に，`-shell-escape` オプションを付けることで，外部コマンドの実行を許可しなければレンダリング出来ないが，上述した `.latexmkrc` ファイルに既に加筆してあるため，備忘録として記載する．
+`Pygments` はその名の通り，`Python` で動作するため，$\LaTeX$ コンパイルの際に，`-shell-escape` オプションを付けることで，外部コマンドの実行を許可しなければレンダリング出来ないが，上述した `.latexmkrc` ファイルに既に加筆してあるため，備忘録として記載する．
 
 インストールは以下のように，`pip(Packeage Installer for Python)` を使用する[^python]．
 
@@ -64,7 +64,7 @@ $ pip install Pygments
 `Acroreader(Adobe Acrobat Reader)` はアンインストールすること
 
 このソフトウェアは，PDFのプレビュー中にそのファイルの書き込みを禁止する．
-つまり， $\Latex$ による更新を行えない状態になる．
+つまり， $\LaTeX$ による更新を行えない状態になる．
 
 以下は， [`$latexmk` - CTAN](https://www.ctan.org/pkg/latexmk/?lang=en)[^ctan] の Manual であるが，Windowsであれば，[SumatraPDF](https://www.sumatrapdfreader.org/free-pdf-reader) などをオススメする．
 
