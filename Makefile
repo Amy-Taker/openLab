@@ -1,19 +1,23 @@
 NAME = 
+# SRCS = 01_CommonGround.md 02_Grounding.md 03_ComputeModel.md
 SRCS = 0*.md
-OBJ = CommonGround.pdf
-
-%:
-	pandoc ${@:=.md} -o ${@:=.pdf} --pdf-engine=lualatex -V documentclass=ltjsarticle
+OBJ = Submit.pdf
 
 all: $(OBJ)
 
-$(OBJ):
-	pandoc $(SRCS) -o $(OBJ) --pdf-engine=lualatex -V documentclass=ltjsarticle
+$(OBJ): $(SRCS)
+	pandoc $^ -o $@ --pdf-engine=lualatex -V documentclass=ltjsarticle
+
+# $(SRCS):
+# 	pandoc ${@:=.md} -o ${@:=.pdf} --pdf-engine=lualatex -V documentclass=ltjsarticle
 
 clean:
 	rm -f $(OBJ)
 
-fclean:	clean
-	rm -f $(NAME)
+re:	clean all
 
-re:	fclean all
+%.pdf:
+	pandoc $*.md -o $@ --pdf-engine=lualatex -V documentclass=ltjsarticle
+
+#%:
+#	pandoc ${@:=.md} -o ${@:=.pdf} --pdf-engine=lualatex -V documentclass=ltjsarticle
