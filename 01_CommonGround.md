@@ -78,7 +78,7 @@ $CG_{AB}p$ が成り立つのは以下を満たす基礎 $b$ が存在すると�
 <!-- * Schiffer, 1972 -->
 * Schiffer, S. R. (1972). Meaning.
 <!-- * Cohen & Levesque, 1990c -->
-* Cohen, P. R. & Levesque, H. J. (1990). Rational Interaction as the Basis for Communication. Pattern Recognition. URL:https://www.researchgate.net/publication/235206795_Rational_Interaction_as_the_Basis_for_Communication
+* Cohen, P. R. & Levesque, H. J. (1990). Rational Interaction as the Basis for Communication. Pattern Recognition. https://www.researchgate.net/publication/235206795_Rational_Interaction_as_the_Basis_for_Communication
 <!-- * Clark & Marshall. 1981 -->
 * Clark, H. H., & Marshall, C. R. (1981). Definite knowledge and mutual knowledge.
 <!-- * Harman, 1977 -->

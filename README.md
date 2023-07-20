@@ -6,6 +6,11 @@
 * [02_基盤化](./02_Gorounding.md)
 * [03_基盤化の計算モデル](./03_ComputeModel.md)
 
+## Option
+
+* Griceの会話の公準
+* 関連性理論
+
 ## MakeFile関連事項
 
 * [【初心者向け】Makefile入門 | Qiita](https://qiita.com/mizcii/items/cfbd2aa17f6b7517c37f)
